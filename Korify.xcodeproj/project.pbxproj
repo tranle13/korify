@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F12C9D72BB232BA002AFA40 /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F12C9D62BB232BA002AFA40 /* TabbarController.swift */; };
+		0F12C9D92BB24152002AFA40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F12C9D82BB24152002AFA40 /* HomeViewController.swift */; };
+		0F12C9DC2BB24994002AFA40 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F12C9DA2BB24994002AFA40 /* GroupCell.swift */; };
+		0F12C9DD2BB24994002AFA40 /* GroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F12C9DB2BB24994002AFA40 /* GroupCell.xib */; };
+		0F165E2E2BB3CC0000946C42 /* AddVocabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F165E2D2BB3CC0000946C42 /* AddVocabViewController.swift */; };
+		0F165E302BB3D22B00946C42 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F165E2F2BB3D22B00946C42 /* AddGroupViewController.swift */; };
 		0FDBF32F2BB126B9006F03A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF32E2BB126B9006F03A7 /* AppDelegate.swift */; };
 		0FDBF3312BB126B9006F03A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3302BB126B9006F03A7 /* SceneDelegate.swift */; };
-		0FDBF3332BB126B9006F03A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3322BB126B9006F03A7 /* ViewController.swift */; };
+		0FDBF3332BB126B9006F03A7 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3322BB126B9006F03A7 /* GroupsViewController.swift */; };
 		0FDBF3362BB126B9006F03A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FDBF3342BB126B9006F03A7 /* Main.storyboard */; };
 		0FDBF3392BB126B9006F03A7 /* Korify.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3372BB126B9006F03A7 /* Korify.xcdatamodeld */; };
 		0FDBF33B2BB126BB006F03A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FDBF33A2BB126BB006F03A7 /* Assets.xcassets */; };
@@ -17,6 +23,12 @@
 		0FDBF3492BB126BC006F03A7 /* KorifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3482BB126BC006F03A7 /* KorifyTests.swift */; };
 		0FDBF3532BB126BC006F03A7 /* KorifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3522BB126BC006F03A7 /* KorifyUITests.swift */; };
 		0FDBF3552BB126BC006F03A7 /* KorifyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3542BB126BC006F03A7 /* KorifyUITestsLaunchTests.swift */; };
+		0FDBF3632BB134D1006F03A7 /* Vocab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3622BB134D1006F03A7 /* Vocab.swift */; };
+		0FDBF3652BB1387B006F03A7 /* Vocabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3642BB1387B006F03A7 /* Vocabs.swift */; };
+		0FDBF3672BB13D0B006F03A7 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3662BB13D0B006F03A7 /* Deck.swift */; };
+		0FDBF3692BB13D15006F03A7 /* Decks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDBF3682BB13D14006F03A7 /* Decks.swift */; };
+		0FF57E682BB3C7A2009B70B5 /* VocabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF57E672BB3C7A2009B70B5 /* VocabsViewController.swift */; };
+		0FF677502BB27A7C00285CCE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF6774F2BB27A7C00285CCE /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F12C9D62BB232BA002AFA40 /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabbarController.swift; path = Korify/TabbarController.swift; sourceTree = SOURCE_ROOT; };
+		0F12C9D82BB24152002AFA40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0F12C9DA2BB24994002AFA40 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		0F12C9DB2BB24994002AFA40 /* GroupCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupCell.xib; sourceTree = "<group>"; };
+		0F165E2D2BB3CC0000946C42 /* AddVocabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVocabViewController.swift; sourceTree = "<group>"; };
+		0F165E2F2BB3D22B00946C42 /* AddGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
 		0FDBF32B2BB126B9006F03A7 /* Korify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Korify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDBF32E2BB126B9006F03A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FDBF3302BB126B9006F03A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FDBF3322BB126B9006F03A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FDBF3322BB126B9006F03A7 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
 		0FDBF3352BB126B9006F03A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FDBF3382BB126B9006F03A7 /* Korify.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Korify.xcdatamodel; sourceTree = "<group>"; };
 		0FDBF33A2BB126BB006F03A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +69,12 @@
 		0FDBF34E2BB126BC006F03A7 /* KorifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KorifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FDBF3522BB126BC006F03A7 /* KorifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KorifyUITests.swift; sourceTree = "<group>"; };
 		0FDBF3542BB126BC006F03A7 /* KorifyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KorifyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FDBF3622BB134D1006F03A7 /* Vocab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocab.swift; sourceTree = "<group>"; };
+		0FDBF3642BB1387B006F03A7 /* Vocabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vocabs.swift; sourceTree = "<group>"; };
+		0FDBF3662BB13D0B006F03A7 /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		0FDBF3682BB13D14006F03A7 /* Decks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decks.swift; sourceTree = "<group>"; };
+		0FF57E672BB3C7A2009B70B5 /* VocabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabsViewController.swift; sourceTree = "<group>"; };
+		0FF6774F2BB27A7C00285CCE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F12C9DE2BB249A8002AFA40 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				0F12C9DA2BB24994002AFA40 /* GroupCell.swift */,
+				0F12C9DB2BB24994002AFA40 /* GroupCell.xib */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
 		0FDBF3222BB126B9006F03A7 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +134,17 @@
 		0FDBF32D2BB126B9006F03A7 /* Korify */ = {
 			isa = PBXGroup;
 			children = (
+				0F12C9DE2BB249A8002AFA40 /* Custom */,
+				0FDBF3612BB134BB006F03A7 /* Classes */,
 				0FDBF32E2BB126B9006F03A7 /* AppDelegate.swift */,
 				0FDBF3302BB126B9006F03A7 /* SceneDelegate.swift */,
-				0FDBF3322BB126B9006F03A7 /* ViewController.swift */,
+				0FDBF3322BB126B9006F03A7 /* GroupsViewController.swift */,
+				0F12C9D62BB232BA002AFA40 /* TabbarController.swift */,
+				0F12C9D82BB24152002AFA40 /* HomeViewController.swift */,
+				0FF57E672BB3C7A2009B70B5 /* VocabsViewController.swift */,
+				0FF6774F2BB27A7C00285CCE /* Constants.swift */,
+				0F165E2F2BB3D22B00946C42 /* AddGroupViewController.swift */,
+				0F165E2D2BB3CC0000946C42 /* AddVocabViewController.swift */,
 				0FDBF3342BB126B9006F03A7 /* Main.storyboard */,
 				0FDBF33A2BB126BB006F03A7 /* Assets.xcassets */,
 				0FDBF33C2BB126BB006F03A7 /* LaunchScreen.storyboard */,
@@ -128,6 +169,17 @@
 				0FDBF3542BB126BC006F03A7 /* KorifyUITestsLaunchTests.swift */,
 			);
 			path = KorifyUITests;
+			sourceTree = "<group>";
+		};
+		0FDBF3612BB134BB006F03A7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0FDBF3622BB134D1006F03A7 /* Vocab.swift */,
+				0FDBF3642BB1387B006F03A7 /* Vocabs.swift */,
+				0FDBF3662BB13D0B006F03A7 /* Deck.swift */,
+				0FDBF3682BB13D14006F03A7 /* Decks.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +289,7 @@
 				0FDBF33E2BB126BB006F03A7 /* LaunchScreen.storyboard in Resources */,
 				0FDBF33B2BB126BB006F03A7 /* Assets.xcassets in Resources */,
 				0FDBF3362BB126B9006F03A7 /* Main.storyboard in Resources */,
+				0F12C9DD2BB24994002AFA40 /* GroupCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +314,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FDBF3332BB126B9006F03A7 /* ViewController.swift in Sources */,
+				0FDBF3672BB13D0B006F03A7 /* Deck.swift in Sources */,
+				0FDBF3332BB126B9006F03A7 /* GroupsViewController.swift in Sources */,
+				0F12C9DC2BB24994002AFA40 /* GroupCell.swift in Sources */,
 				0FDBF32F2BB126B9006F03A7 /* AppDelegate.swift in Sources */,
+				0F165E302BB3D22B00946C42 /* AddGroupViewController.swift in Sources */,
+				0F165E2E2BB3CC0000946C42 /* AddVocabViewController.swift in Sources */,
+				0FDBF3632BB134D1006F03A7 /* Vocab.swift in Sources */,
+				0FDBF3652BB1387B006F03A7 /* Vocabs.swift in Sources */,
+				0FF57E682BB3C7A2009B70B5 /* VocabsViewController.swift in Sources */,
+				0F12C9D92BB24152002AFA40 /* HomeViewController.swift in Sources */,
 				0FDBF3312BB126B9006F03A7 /* SceneDelegate.swift in Sources */,
 				0FDBF3392BB126B9006F03A7 /* Korify.xcdatamodeld in Sources */,
+				0F12C9D72BB232BA002AFA40 /* TabbarController.swift in Sources */,
+				0FDBF3692BB13D15006F03A7 /* Decks.swift in Sources */,
+				0FF677502BB27A7C00285CCE /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +507,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MUC9MU7GV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Korify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -470,6 +535,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MUC9MU7GV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Korify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
